@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'Tangerine';
+    src: url(../font/Tangerine-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'sansita';
+    src: url(../font/SansitaSwashed-VariableFont_wght.ttf);
+}
+
+:root {
+    --couleurBody: #1D1C1C;
+    --couleurFondElement: #554D74;
+}
+
+body {
+    background-color: var(--couleurBody);
+    margin: 0;
+    font-family: 'sansita';
+}
+
+body {
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+
+h1 {
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    color: #554D74;
+    word-spacing: 10px;
+}
+
+h2 {
+    color: white;
+}
+
+p {
+    color: #554D74;
+    word-spacing: 5px;
+    font-size: 25px;
+}
+
+
