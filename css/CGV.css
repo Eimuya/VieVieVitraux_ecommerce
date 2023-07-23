@@ -24,6 +24,18 @@ main {
     padding-right: 300px;
 }
 
+ul {
+    color: #554D74;
+    word-spacing: 5px;
+    font-size: 25px;
+}
+
+/* ul#DP :disabled {
+    display: flex;
+    list-style: none;
+    align-self: center;
+    padding-right: 40px;
+} */
 
 h1 {
     text-align: center;
