@@ -63,12 +63,14 @@ footer {
     justify-content: space-between;
     
 }
-li {
+
+footer li {
     margin: 5px;
     display: flex;
     align-self: flex-end;
 }
-ul {
+
+footer ul {
     display: flex;
     list-style: none;
     align-self: center;
