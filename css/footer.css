@@ -78,3 +78,14 @@ footer ul {
     margin-top: 0px;
     
 }
+
+.cgv {
+    display: flex;
+    margin-top: 15px;
+}
+
+.cgv a {
+    text-decoration: none;
+    color: black;
+    margin: 3px;
+}
