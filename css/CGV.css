@@ -19,11 +19,23 @@ body {
     font-family: 'sansita';
 }
 
-body {
+main {
     padding-left: 300px;
     padding-right: 300px;
 }
 
+ul {
+    color: #554D74;
+    word-spacing: 5px;
+    font-size: 25px;
+}
+
+/* ul#DP {
+    display: flex;
+    list-style: none;
+    align-self: center;
+    padding-right: 40px;
+} */
 
 h1 {
     text-align: center;
