@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Tangerine';
+    src: url(../font/Tangerine-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'sansita';
+    src: url(../font/SansitaSwashed-VariableFont_wght.ttf);
+}
+:root {
+    --couleurBody: #1D1C1C;
+    --couleurFondElement: #554D74;
+}
+body {
+    background-color: var(--couleurBody);
+    margin: 0;
+    padding: 0;  
+}
