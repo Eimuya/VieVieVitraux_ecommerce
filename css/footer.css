@@ -35,6 +35,8 @@ footer {
     
 }
 #news input {
+    background-color: white;
+    color: #554D74;
     display: flex;
     border-radius: 5px;
     width: 50%;
