@@ -36,3 +36,8 @@ main {
 .Avis2 {
     padding: 20px;
 }
+
+#photo {
+    width: 100px;
+    height: 100px;
+}
