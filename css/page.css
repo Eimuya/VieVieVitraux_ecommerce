@@ -17,6 +17,7 @@ body {
     background-color: #1D1C1C;
     margin: 0;
     padding: 0;
+    cursor: url(../images/racoo.png), pointer;
     
 }
 
