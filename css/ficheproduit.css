@@ -12,10 +12,11 @@ section {
     margin-left: 5%;
     margin-right: 5%;
     display: flex;
-    border: solid 2px black;
+    border-top: solid 2px black;
     text-align: center;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    color: white;
 }
 main {
     padding: 20px;
@@ -31,10 +32,12 @@ main {
 
 .Avis1 {
     padding: 20px;
+    width: 500px;
 }
 
 .Avis2 {
     padding: 20px;
+    width: 500px;
 }
 
 #photo {
