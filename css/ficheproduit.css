@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Tangerine';
+    src: url(../font/Tangerine-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'sansita';
+    src: url(../font/SansitaSwashed-VariableFont_wght.ttf);
+}
+
+section {
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    border: solid 2px black;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+main {
+    padding: 20px;
+    margin: 20px;
+}
+.gauche {
+    padding: 20px;
+}
+
+.droite {
+    padding: 20px;
+}
+
+.Avis1 {
+    padding: 20px;
+}
+
+.Avis2 {
+    padding: 20px;
+}
+
+#photo {
+    width: 100px;
+    height: 100px;
+}
