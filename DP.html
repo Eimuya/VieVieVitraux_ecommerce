@@ -9,9 +9,43 @@
     <title>Données Personnelles</title>
 </head>
 <body>
-    <main>
+    <header>
+        <div id="logo">
+            <a href="index.html">
+                <img id="logoimg" src="images/logo1.svg" alt="mon jolie logo">
+            </a>
+        </div>
+        <div class="titre">
+            <h1 id="title">Vie Vie Vitraux</h1>
+            <img src="images/vague.svg" alt="" id="vague">
+        </div>
+        <nav class="navbar">
+            <div class=navbarune>
 
+                <a href=""> Evenements </a>
+                <a href="apropos.html"> A propos </a>
+                <a href="./Contact.html"> Contact </a>
+
+            </div>
+            <div class="navbardeux">
+                <a href="index.html">Accueil</a>
+                <a href="Boutique.html">Boutique</a>
+            </div>
+        </nav>
+        <div class="search">
+            <input type="search" id="search" name="recherche" value="">
+            <a href="panier.html">
+                <i id="shop" class="fa-solid fa-cart-shopping" style= "color: #030303;"></i>
+            </a>
+            <a href="moncompte.html">
+                <i id="userLogo" class="fa-solid fa-user" style="color: #000000;"></i>
+            </a>
+        </div>
+    </header>
+    <main>
+        <a href="index.html">
         <h1>Données Personnelles</h1><br>
+        </a>
 
         <p>Dernière mise à jour le 23 mars 2023. Consultez les versions précédentes des Notices de protection de vos informations personnelles.
 
@@ -323,6 +357,33 @@
         </ul><br>
     </main>
 </body>
+<footer>
+    <footer>
+        <div class="contact">
+         <h4>Nous contacter</h4>
+             <i class="fa-solid fa-phone" ></i>
+             <i class="fa-solid fa-envelope"></i>
+         </div> 
+
+         <div id="news">
+             <label for="mailon">Inscription à notre Newsletter :</label>
+             <input type="email" id="newsletter" name="mailon">
+             <div class="cgv">
+                <a href="./CG.html">Conditions Générales</a>,
+                <a href="./ML.html">Mentions Légales</a>,
+                <a href="./DP.html">Données Personnelles</a>,
+            </div>
+         </div>
+         <div class="reseau">
+            <h4 class="foot">Mes réseaux :</h4>
+            <ul class="liste_foother">
+                 <li><i class="fa-brands fa-facebook" style="color: #030303;"></i></li>
+                 <li><i class="fa-brands fa-instagram" style="color: #030303;"></i></li>
+                 <li><i class="fa-brands fa-twitter" style="color: black;"></i></li>
+             </ul>
+            </div>
+
+</footer>
 <script src="https://kit.fontawesome.com/7658c89548.js" crossorigin="anonymous"></script>
 <script src="js/insertHeaderFooter.js"></script>
 </html>

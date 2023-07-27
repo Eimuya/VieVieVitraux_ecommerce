@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/boutique.css">
+    <link rel="stylesheet" href="css/inscription.css">
     <title>vievievitraux</title>
 </head>
 <body>
@@ -46,8 +47,37 @@
             </a>
         </div>
     </header>
-    
 
+    <main>
+        <section id="inscription">
+            <article class="inscription">
+                <form action="" method="get">
+                    <div class="formUn">
+                        <label for="name">Votre nom :</label>
+                        <input type="text" name="name" id="name" required>
+                        <label for="surname">Votre prénom :</label>
+                        <input type="text" name="surname" id="surname" required>
+                        <label for="CodePostale">Code Postale</label>
+                        <input type="number" name="CodePostale" max="99999" required>
+                    </div>
+                    <div class="formDeux">
+                        <label for="Ville">Votre ville :</label>
+                        <input type="text" name="Ville" id="Ville" required>
+                        <label for="adress">Votre adresse :</label>
+                        <input type="text" name="adress" id="adress" required>
+                        <label for="mail">Votre Adresse mail :</label>
+                        <input type="email" name="mail" id="mail" required >
+                    </div>
+                    <input type="submit" value="Validez votre inscription !" id="Validation">
+                </form>
+                <img id="logo" src="images/logo1.svg" alt="mon jolie logo">
+                <div id="lien">
+                <a  href="">Inscris toi via <img id="google"src="images/google-icon.svg" alt="Logo de google"></a>
+                </div>
+            </article>
+
+        </section>
+    </main>
 
 
 

@@ -35,6 +35,8 @@ footer {
     
 }
 #news input {
+    background-color: white;
+    color: #554D74;
     display: flex;
     border-radius: 5px;
     width: 50%;
@@ -77,4 +79,15 @@ footer ul {
     padding-right: 40px;
     margin-top: 0px;
     
+}
+
+.cgv {
+    display: flex;
+    margin-top: 15px;
+}
+
+.cgv a {
+    text-decoration: none;
+    color: black;
+    margin: 3px;
 }

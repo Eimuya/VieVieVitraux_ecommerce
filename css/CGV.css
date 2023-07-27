@@ -8,6 +8,7 @@
     src: url(../font/SansitaSwashed-VariableFont_wght.ttf);
 }
 
+
 :root {
     --couleurBody: #1D1C1C;
     --couleurFondElement: #554D74;
@@ -22,7 +23,7 @@ body {
 main {
     padding-left: 300px;
     padding-right: 300px;
-}
+} 
 
 ul {
     color: #554D74;
@@ -32,8 +33,6 @@ ul {
 
 h1 {
     text-align: center;
-    padding-bottom: 50px;
-    padding-top: 50px;
     color: #554D74;
     word-spacing: 10px;
 }
@@ -48,4 +47,7 @@ p {
     font-size: 25px;
 }
 
+a {
+    text-decoration: none;
+}
 
