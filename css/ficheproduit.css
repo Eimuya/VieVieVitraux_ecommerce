@@ -18,25 +18,51 @@ section {
     justify-content: space-around;
     align-items: center;
     color: white;
+    font-size: 20px;
 }
+
 main {
     padding: 20px;
     margin: 20px;
 }
+
 .gauche {
+    width : 200rem;
     padding: 20px;
     background-color: rgb(88, 69, 105);
     border-radius: 20%;
     box-shadow: 0px 10px 10px;
+    margin-right: 50px;
 }
 
 .droite {
     padding: 20px;
 }
 
+
+
+.bouton:hover{
+    background-color: rgb(54, 94, 139);
+    color: white;
+}
+
+.bouton {
+    text-decoration: none;
+    background-color: rgb(88, 69, 105);
+    color: white;
+    width: 250rem;
+    height: 35rem;
+    padding: 10px;
+    text-align: center;
+    margin: 50px;
+    border-radius: 20%;
+    box-shadow: 0px 2px 2px;
+}
+
 .Avis1 {
     padding: 20px;
-    width: 300px;
+    width: 20rem;
+    height: 12rem;
     background-color: rgb(88, 69, 105);
     border-radius: 20%;
     box-shadow: 0px 10px 10px;
@@ -44,7 +70,8 @@ main {
 
 .Avis2 {
     padding: 20px;
-    width: 300px;
+    width: 20rem;
+    height:12rem;
     background-color: rgb(88, 69, 105);
     border-radius: 20%;
     box-shadow: 0px 10px 10px;
