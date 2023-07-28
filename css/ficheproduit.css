@@ -18,7 +18,7 @@ section {
     justify-content: space-around;
     align-items: center;
     color: white;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 main {
@@ -27,12 +27,16 @@ main {
 }
 
 .gauche {
-    width : 200rem;
+    width : 90%;
     padding: 20px;
     background-color: rgb(88, 69, 105);
     border-radius: 20%;
     box-shadow: 0px 10px 10px;
     margin-right: 50px;
+}
+
+#imagearticle{
+    width : 70%;
 }
 
 .droite {
@@ -50,8 +54,8 @@ main {
     text-decoration: none;
     background-color: rgb(88, 69, 105);
     color: white;
-    width: 250rem;
-    height: 35rem;
+    width: 200px;
+    height: 25px;
     padding: 10px;
     text-align: center;
     margin: 50px;
@@ -61,23 +65,25 @@ main {
 
 .Avis1 {
     padding: 20px;
-    width: 20rem;
-    height: 12rem;
+    width: 200px;
+    height: 150px;
     background-color: rgb(88, 69, 105);
     border-radius: 20%;
+    text-align: center;
     box-shadow: 0px 10px 10px;
 }
 
 .Avis2 {
     padding: 20px;
-    width: 20rem;
-    height:12rem;
+    width:200px;
+    height: 150px;
     background-color: rgb(88, 69, 105);
     border-radius: 20%;
+    text-align: center;
     box-shadow: 0px 10px 10px;
 }
 
 #photo {
-    width: 100px;
-    height: 100px;
+    width: 30%;
+    height: 30%;
 }
