@@ -1,4 +1,10 @@
 @font-face {
+    font-family: 'Tangerine';
+    src: url(../font/Tangerine-Regular.ttf);
+}
+
+
+@font-face {
     font-family: 'sansita';
     src: url(../font/SansitaSwashed-VariableFont_wght.ttf);
 }
@@ -12,7 +18,7 @@ body {
     background-color: #1D1C1C;
     margin: 0;
     padding: 0;
-    
+    font-family: 'sansita';
 }
 
 main {
@@ -27,14 +33,42 @@ main {
 }
 
 section{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 15px;
+    border : 3px solid white;
+    border-radius: 20%;
+    box-shadow: 0 5px 5px;
+    background-color: #554D74;
+    padding: 20px;
+    color: white;
+}
+
+#comptegauche{
+    margin: 100px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    font-size: 15px;
+    text-decoration: none;
+}
+
+#comptedroite{
+    margin: 50px;
+    color: white;
+    text-decoration: none;
+}
+
+a{
+    color: white;
+}
+
+h2{
+    text-decoration: underline;
+}
+
+article{
+    text-decoration: none;
 }
 
 .info{
@@ -48,6 +82,7 @@ section{
     width: 100px;
     height:100px;
     margin-top: 50px;
+    margin-bottom: 50px;
     text-align: center;
     padding: 12px;
     border: 5px solid white;
@@ -58,20 +93,8 @@ section{
 
 }
 
-#modifierprofil{
-    text-decoration: underline;
-}
-
-#monpanier{
-    text-decoration: underline;
-}
-
-#medéconnecter{
-    text-decoration: underline;
-}
 
 #mesinfos{
-    text-decoration: underline;
     font-weight: 500;
     font-size: 30px;
 }
@@ -88,7 +111,6 @@ section{
 }
 
 #monhistorique{
-    text-decoration: underline;
     font-weight: 500;
     font-size: 30px;
 }
