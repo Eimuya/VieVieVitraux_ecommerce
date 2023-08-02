@@ -8,6 +8,7 @@ footer {
     background-color: #554D74;;
     height: auto;
     width: 100%;
+    padding: 10px;
 }
 
 .contact {
@@ -90,4 +91,8 @@ footer ul {
     text-decoration: none;
     color: black;
     margin: 3px;
+}
+
+i {
+    margin: 5px;
 }

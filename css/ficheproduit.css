@@ -87,3 +87,11 @@ main {
     width: 30%;
     height: 30%;
 }
+
+.gauche img {
+    border-radius: 20px;
+}
+
+section img {
+    border-radius: 10px;
+}
