@@ -51,7 +51,7 @@ h3 {
     margin-top: -2%;
 }
 
-.forme2 {
+#infos {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -60,17 +60,19 @@ h3 {
     margin-bottom: 20px;
 }
 
-.forme3 {
+#popup {
     display: flex;
     flex-flow: wrap;
     justify-content: center;
+    position: absolute;
     margin-top: 240px;
     margin-bottom: 430px;
-    padding-bottom: 150px;
+    padding-bottom: 100px;
     margin-left: 5%;
     background-color: #554D74;
     border-radius: 30px;
     box-shadow: 10px 5px 5px white;
+    visibility: hidden;
 }
 
 label {
@@ -96,7 +98,7 @@ input#nom, input#prénom, input#mail, input#titre {
     width: 200px;
 }
 
-input#Envoyer {
+input#envoyer {
     color: white;
     text-shadow: 1px 0 5px;
     font-size: 20px;
