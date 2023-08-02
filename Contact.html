@@ -44,10 +44,10 @@
         </div>
     </header>
     <main>
-        <section class="forme forme1">
-        <h2>Formulaire à compléter pour les demandes de devis d'informations:</h2>
+        
+        <form id="form">
 
-        <form action="methode">
+            <h2>Formulaire à compléter pour les demandes de devis d'informations:</h2><br>
 
             <label for="nom">Nom*:</label><br>
             <input type="text" name="nom" id="nom" required><br>
@@ -64,13 +64,17 @@
             <label for="message">Message:</label><br>
             <textarea name="" id="" cols="50" rows="10" required> 
      Ajouter votre message...</textarea><br>
-
-            <input type="submit" value="Envoyer" id="Envoyer"><br>
+     
+            <input type="submit" value="Envoyer" id="envoyer"><br>
 
         </form>
+    
+    <section id="popup">
+        <h2>Message bien envoyer</h2><br>
+        <p>Je vous remercie de l’attention que vous apportez à notre site.</p><br>
     </section>
 
-    <section class="forme forme2">
+    <section id="infos">
         <p>Adresse de vievievitraux:</p>
         <p class="p">21 rue des artistes,</p> 
         <p class="p">75003 Paris.</p>
@@ -117,5 +121,5 @@
 
 </body>
 <script src="https://kit.fontawesome.com/7658c89548.js" crossorigin="anonymous"></script>
-
+<script src="./js/contact.js"></script>
 </html>    
