@@ -25,35 +25,34 @@ body {
 main {
     width: auto;
     height: auto;
-    max-height: 1000px;
     margin-top: 100px;
     padding-left: 300px;
     padding-right: 300px;
 } 
 
-ul {
+main ul {
     color: #554D74;
     word-spacing: 5px;
     font-size: 25px;
 }
 
-h1 {
+main h1 {
     text-align: center;
     color: #554D74;
     word-spacing: 10px;
 }
 
-h2 {
+main h2 {
     color: white;
 }
 
-p {
+main p {
     color: #554D74;
     word-spacing: 5px;
     font-size: 25px;
 }
 
-a {
+main a {
     text-decoration: none;
 }
 
