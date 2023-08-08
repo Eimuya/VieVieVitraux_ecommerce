@@ -28,12 +28,14 @@ main {
     margin-top: 100px;
     padding-left: 300px;
     padding-right: 300px;
+    text-align: justify;
 } 
 
 main ul {
     color: #554D74;
     word-spacing: 5px;
     font-size: 25px;
+    
 }
 
 main h1 {
@@ -56,3 +58,41 @@ main a {
     text-decoration: none;
 }
 
+@media all and (max-width: 1260px){
+
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        width: 80%;
+        padding-left: 50px;
+        padding-right: 10px;
+        text-decoration: none;
+    }
+
+    h1 {
+        font-size: large;
+    }
+
+    h2 {
+        font-size: medium;
+    }
+
+    main p {
+        justify-content: center;
+        width: 80%;
+        font-size: 15px;
+        word-spacing: none;
+    }
+
+    main ul {
+        width: 80%;
+        font-size: 15px;
+        word-spacing: none;
+        text-align: justify;
+        padding-left: 25px;
+
+    }
+
+}

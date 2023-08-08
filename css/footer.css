@@ -115,4 +115,37 @@ i {
 }
 
 
+@media all and (max-width: 1060px) {
+    
+    footer {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        height: auto;
+        width: 100%;
+        padding: 10px;
+        font-size: 15px;
+    }
+
+    footer ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cgv {
+        display: flex;
+        flex-direction: column;
+        padding-left: 10%;
+    }
+
+    .contact {
+        display: none;
+    }
+
+    h4, h4 .foot {
+        font-size: medium;
+    }
+
+}
+
 
