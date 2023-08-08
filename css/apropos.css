@@ -50,28 +50,30 @@ h2 {
     margin-left: 30px;
 }
 
-
 main img {
-    width: 400px;
-    height: 400px;
-    margin-right: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
 #imagepropos1 {
+    max-width: 400px;
+    max-height: 400px;
     transform: rotate(-15deg);
-    align-self: flex-start;
     margin-right: 80px;
     box-shadow: 5px 5px 5px black;
 
 }
 
 #imagepropos2 {
+    margin-top: 180px;
+    max-width: 400px;
+    max-height: 400px;
     transform: rotate(15deg);
     position: absolute;
+    display: flex;
     align-self: flex-end;
+    align-items: center;
     box-shadow: 5px 5px 5px black;
 }
 
@@ -79,6 +81,7 @@ main img {
     position: relative;
     display: flex;
     background-color: #554D74;
+    text-align: justify;
     font-size: 20px;
     border-radius: 20px;
     box-shadow: 0px 5px 5px white;
@@ -97,6 +100,7 @@ main img {
     display: flex;
     flex-direction: column;
     background-color: #554D74;
+    text-align: justify;
     font-size: 20px;
     border-radius: 20px;
     box-shadow: 0px 5px 5px white;
@@ -129,8 +133,8 @@ main img {
 
 #logopartenaire img {
     border-radius: 20px;
-    width: 200px;
-    height: 200px;
+    max-width: 200px;
+    max-height: 200px;
 }
 
 #logopartenaire img:hover {
@@ -148,4 +152,80 @@ main img {
     100% {
       transform: scale(1, 1);
     }
+  }
+
+@media all and (max-width: 1260px) {
+
+    main {
+        display: flex;
+        flex-direction: column;
+        word-spacing: 0px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    #histoire {
+        flex-direction: column;
+        background-color: var(--couleurBody);
+        box-shadow: 0px 0px 0px;
+        position: static;
+        margin-bottom: 40px;
+        margin-left: 25px;
+        padding-left: 0px;
+    }
+
+    #techniques{
+        flex-direction: column;
+        background-color: var(--couleurBody);
+        box-shadow: 0px 0px 0px;
+        position: static;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        margin-left: 25px;
+    }
+    
+  
+
+    #imagepropos1 {
+        transform: rotate(0deg);
+        align-self: center;
+        display: block;
+        margin-right: 0px;
+        width: 100%;
+    }
+
+    #imagepropos2 {  
+        transform: rotate(0deg);
+        display: block;
+        align-self: center;
+        position: static;
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    #propos1 {
+        align-self: center;
+        width: 80%;
+        font-size: 15px;
+    }
+
+    #propos2 {
+        justify-content: center;
+        width: 80%;
+        font-size: 15px;
+    }
+
+    #logopartenaire {
+        background-color: var(--couleurBody);
+        box-shadow: 0px 0px 0px;
+        margin-left: 0px;
+        margin-bottom: 40px;
+    }
+
+    #logopartenaire img{
+        width: 100%;
+    }
+
   }

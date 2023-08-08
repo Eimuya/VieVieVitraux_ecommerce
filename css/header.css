@@ -25,13 +25,14 @@ header {
     align-items: flex-start;
     
 }
+
 #title {
     margin-top: 50px;
     font-size: 120px;
     font-family: tangerine;
-    color: #554D4F;
-    
+    color: #554D4F; 
 }
+
 #vague {
     position: absolute;
     width: 500px;
