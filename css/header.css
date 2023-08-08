@@ -26,6 +26,21 @@ p {
     font-weight: bold;
     margin-left: 40px;
 }
+.titre {
+    display: flex;
+    width: 30%;
+    
+    /* justify-content: center; */
+    align-items: flex-start;
+    
+}
+
+#title {
+    margin-top: 50px;
+    font-size: 120px;
+    font-family: tangerine;
+    color: #554D4F; 
+}
 
 #vague {
     width:200px;
@@ -34,7 +49,6 @@ p {
     margin-top: 20px;
     margin-left: 0px;
     display: flex;
-
 }
 
 
