@@ -1,32 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Tangerine:wght@700&display=swap');
 
-* {
-    color: black;
-    text-decoration: none;
-    list-style: none;
-}
-
 header {
    height: 150px;
    background-color: #1D1C1C;
    background-size: cover;
    display: flex;
    justify-content: flex-start;
+   text-decoration: none;
+   list-style: none;
+
 }
 
-#logo{
+header #logo{
     margin-top: 10px;
     margin-left:20px ;
 }
 
-p {
+header p {
     height: 10px;
     font-family: 'Tangerine', sans-serif;
     font-size: 40px;
     font-weight: bold;
     margin-left: 40px;
 }
-.titre {
+
+header .titre {
     display: flex;
     width: 30%;
     
@@ -35,7 +33,7 @@ p {
     
 }
 
-#title {
+header #title {
     margin-top: 50px;
     font-size: 120px;
     font-family: tangerine;
@@ -57,7 +55,8 @@ p {
     margin-top: 30px;
     
 }
-.Nom {
+
+header .Nom {
    display: flex;
    width:30%;
    align-items: flex-start;
@@ -123,7 +122,7 @@ p {
 }
 
 
-i{
+header i{
     padding: 10px;
 }
 
@@ -223,7 +222,7 @@ i{
         display: flex;
     }
     
-    p {
+    header p {
         height: 10px;
         font-size: 15px;
         font-weight: bold;
@@ -256,7 +255,7 @@ i{
 
 
 
-a {
+header a {
 	display: inline-block;
 	position: relative;
 	transition-duration: defaultDuration;
