@@ -13,69 +13,33 @@
 
 <body>
     <header>
-
         <div id="logo">
             <a href="./index.html">
-                <img src="/images/logo_vectorise.png" alt="mon logo" width="120px" height="120px">
+                <img id="logoimg" src="images/logo1.svg" alt="mon jolie logo">
             </a>
         </div>
-
-        <div class="Nom">
-            <p class="vievie"> Vie Vie Vitraux </p>
-            <img id="vague" src="/images/vague.svg" alt="vague">
+        <div class="titre">
+            <h1 id="title">Vie Vie Vitraux</h1>
+            <img src="images/vague.svg" alt="" id="vague">
         </div>
-
         <nav class="navbar">
+            <div class=navbarune>
 
-            <div class="nav-links">
-
-                <ul>
-                    <li class="active"> <a href="./index.html"> Accueil </a></li>
-                    <li> <a href="./Boutique.html"> Boutique </a></li>
-                    <li> <a href="./apropos.html"> A propos </a></li>
-                    <li> <a href="./evenements.html"> Evènements </a></li>
-                    <li> <a href="./Contact.html"> Contacts </a></li>
-
-                </ul>
-            </div>
-
-        </nav>
-        <nav class="navbar2">
-
-            <div class="nav-links">
-
-                <ul>
-                    <div class="navbarune">
-                        <li class="active"> <a href="./index.html"> Accueil </a></li>
-                        <li> <a href="./Boutique.html"> Boutique </a></li>
-                        <li> <a href="./apropos.html"> A propos </a></li>
-                    </div>
-                    <div class="navbardeux">
-                        <li> <a href="./evenements.html"> Evènements </a></li>
-                        <li> <a href="./Contact.html"> Contacts </a></li>
-                    </div>
-                </ul>
+                <a href="./evenements.html"> Evenements </a>
+                <a href="./apropos.html"> A propos </a>
+                <a href="./Contact.html"> Contact </a>
 
             </div>
-
-        </nav>
-
-        <nav class="menuhamburger">
-            <div class="main-navlinks">
-                <i class="fa-solid fa-bars fa-2xl" style="color: #030303;"><a href="#"></a></i>
             <div class="navbardeux">
-                <a href="./index.html">Accueil</a>
+                <a href="./index.html">Acceuil</a>
                 <a href="./Boutique.html">Boutique</a>
             </div>
         </nav>
-
-        <div class="rechercheetcompte">
-            <i class="fa-solid fa-user fa-sm" style="color: #050505;"><a href="./moncompte.html"></a></i>
-            <i class="fa-solid fa-basket-shopping fa-sm" style="color: #050505;"><a href="./panier.html"></a></i>
-            <i class="fa-solid fa-magnifying-glass fa-sm" style="color: #050505;"></i>
+        <div class="search">
+            <input type="search" id="search" name="recherche" value="">
+            <i id="shop" class="fa-solid fa-cart-shopping" style="color: #030303"; ></i>
+            <i id="userLogo" class="fa-solid fa-user" style="color: #000000;"></i>
         </div>
-        
-        
     </header>
 
     <main>
@@ -91,7 +55,7 @@
                     <p>Bonjour à vous, Je vous souhaite la bienvenue sur mon site , Je vais vous présenter mes
                         créations.</p>
                 </div>
-                <img src="./images/image page accueil 2.jpg" alt="Ma belle bouille">
+                <img src="images/image page accueil 2.jpg" alt="Ma belle bouille">
             </section>
             <section id="carou">
 
@@ -107,8 +71,7 @@
             </section>
         </article>
     </main>
-
-    
+    <footer>
         <footer>
             <div class="contact">
                 <h4>Nous contacter :</h4>
@@ -135,8 +98,8 @@
                 </div>
 
     </footer>
-    </main>
-    
-<script src="https://kit.fontawesome.com/7658c89548.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/7658c89548.js" crossorigin="anonymous"></script>
+    </main>  
 </body>
+
 </html>
