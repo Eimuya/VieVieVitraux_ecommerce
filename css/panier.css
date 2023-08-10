@@ -60,12 +60,7 @@ main {
     margin-right: 30px;
     width: 30px;
 }
-.article_deux {
-    
-}
-.article_trois {
-    
-}
+
 .fdp {
     width: 95%;
     display: flex;
@@ -93,4 +88,19 @@ h2 {
 
 h2, .article, .fdp {
     font-family: sansita, sans-serif;
+}
+
+/* ***************************************************Responsive*********************************************************************** */
+
+@media all and (min-width: 300px) and (max-width: 960px) {
+
+    .fdp {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer {
+        margin-top: 70px;
+    }
+    
 }

@@ -48,6 +48,7 @@ main h1 {
 }
 
 main h2 {
+    display: block;
     color: white;
 }
 
