@@ -35,6 +35,7 @@ main {
 main li {
     margin-bottom: 20px;
 }
+
 .article {
     background-color: #554D74;
     height: 150px;
@@ -55,6 +56,7 @@ main li {
     border-radius: 5px;
     margin-left: 30px;
 }
+
 .img_prix {
     display: flex;
     margin-top: 30px;
@@ -66,4 +68,15 @@ main li {
 
 #validation {
     text-align: center;
+}
+
+
+/* ***************************************************************Responsive************************************************************ */
+
+@media all and (min-width: 300px) and (max-width: 960px) {
+
+    main {
+        font-size: small;
+    }
+
 }

@@ -63,3 +63,14 @@ main a:last-of-type {
     margin-top: 50px;
     
 }
+
+
+/* **************************************************************Responsive************************************************************* */
+
+@media all and (min-width: 300px) and (max-width: 960px) {
+
+    main a:last-of-type {
+        align-self: center;
+        margin-left: 150px;
+    }
+}
