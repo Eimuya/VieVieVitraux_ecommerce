@@ -1,3 +1,5 @@
+
+
 header {
     display: flex;
     height: 250px;
@@ -28,7 +30,7 @@ header {
 #title {
     margin-top: 50px;
     font-size: 120px;
-    font-family: tangerine;
+    font-family: tangerine, sans-serif;
     color: #554D4F;
     
 }

@@ -8,18 +8,19 @@
     src: url(../font/SansitaSwashed-VariableFont_wght.ttf);
 }
 
-
 :root {
     --couleurBody: #1D1C1C;
     --couleurFondElement: #554D74;
 }
+
+/* ************************************************************************************************************************************** */
 
 body {
     background-color: var(--couleurBody);
     background-color: #1D1C1C;
     margin: 0;
     padding: 0;
-    font-family: 'sansita';
+    font-family: 'sansita', sans-serif;
 }
 
 main {
@@ -30,6 +31,8 @@ main {
     padding-right: 300px;
     text-align: justify;
 } 
+
+/* *********************************************************Texte*********************************************************************** */
 
 main ul {
     color: #554D74;
@@ -58,7 +61,11 @@ main a {
     text-decoration: none;
 }
 
-@media all and (max-width: 1260px){
+
+/* *********************************************************Responsive****************************************************************** */
+
+
+@media all and (min-width: 300px) and (max-width: 960px) {
 
     main {
         display: flex;
@@ -76,7 +83,7 @@ main a {
     }
 
     h2 {
-        font-size: medium;
+        font-size: 15px;
     }
 
     main p {
@@ -94,5 +101,21 @@ main a {
         padding-left: 25px;
 
     }
+  }
 
-}
+  @media all and (min-width: 961px) and (max-width: 1360px){
+    main {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    
+  }
+
+  @media all and (min-width: 1361px) and (max-width: 1860px) {
+
+    main {
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+
+  }

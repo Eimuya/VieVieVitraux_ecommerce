@@ -13,12 +13,15 @@
     --couleurFondElement: #554D74;
 }
 
+/* ************************************************************************************************************************************** */
+
+
 body {
     background-color: var(--couleurBody);
     background-color: #1D1C1C;
     margin: 0;
     padding: 0;
-    font-family: 'sansita';
+    font-family: 'sansita', sans-serif;
 }
 
 main {
@@ -31,51 +34,9 @@ main {
     color: white;
 }
 
-h2 {
-    margin-left: 30px;
-}
 
+/* ********************************************************Section********************************************************************** */
 
-#propos1 {
-    display: flex;
-    flex-direction: column;
-    align-self: flex-end;
-    width: 70%;
-    height: 100%;
-    justify-content: space-evenly;
-}
-
-#propos2 {
-    width: 72.5%; 
-    margin-left: 30px;
-}
-
-main img {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-#imagepropos1 {
-    max-width: 400px;
-    max-height: 400px;
-    transform: rotate(-15deg);
-    margin-right: 80px;
-    box-shadow: 5px 5px 5px black;
-
-}
-
-#imagepropos2 {
-    margin-top: 180px;
-    max-width: 400px;
-    max-height: 400px;
-    transform: rotate(15deg);
-    position: absolute;
-    display: flex;
-    align-self: flex-end;
-    align-items: center;
-    box-shadow: 5px 5px 5px black;
-}
 
 #histoire {
     position: relative;
@@ -110,12 +71,6 @@ main img {
     width: 90%;
 }
 
-#partenaire {
-    display: block;
-    text-align: center;
-    width: 100%;
-}
-
 #logopartenaire {
     display: flex;
     flex-flow: row wrap-reverse;
@@ -129,7 +84,64 @@ main img {
     padding-bottom: 40px;
     padding-right: 25px;
     padding-left: 25px;
-} 
+}
+
+/* **************************************************************Texte****************************************************************** */
+
+h2 {
+    margin-left: 30px;
+}
+
+#propos1 {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    width: 70%;
+    height: 100%;
+    justify-content: space-evenly;
+}
+
+#propos2 {
+    width: 72.5%; 
+    margin-left: 30px;
+}
+
+#partenaire {
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+/* ************************************************************Image********************************************************************* */
+
+
+main img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#imagepropos1 {
+    max-width: 400px;
+    max-height: 400px;
+    transform: rotate(-15deg);
+    margin-right: 80px;
+    box-shadow: 5px 5px 5px black;
+
+}
+
+#imagepropos2 {
+    margin-top: 180px;
+    max-width: 400px;
+    max-height: 400px;
+    transform: rotate(15deg);
+    position: absolute;
+    display: flex;
+    align-self: flex-end;
+    align-items: center;
+    box-shadow: 5px 5px 5px black;
+}
+
 
 #logopartenaire img {
     border-radius: 20px;
@@ -140,7 +152,6 @@ main img {
 #logopartenaire img:hover {
     animation: zoom-in-zoom-out 1s ease infinite;
 }
-
 
 @keyframes zoom-in-zoom-out {
     0% {
@@ -154,7 +165,11 @@ main img {
     }
   }
 
-@media all and (max-width: 1260px) {
+
+/* *********************************************************Responsive****************************************************************** */
+
+
+  @media all and (min-width: 300px) and (max-width: 960px) {
 
     main {
         display: flex;
@@ -228,4 +243,63 @@ main img {
         width: 100%;
     }
 
+  }
+
+  @media all and (min-width: 961px) and (max-width: 1360px){
+
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #histoire {
+        display: flex;
+        flex-direction: column;
+        margin-left: 50px;
+        position: static;
+    }
+
+    #propos1 {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        width: 90%;
+    }
+
+    #techniques {
+        width: 95%;
+        margin-left: 50px;
+    }
+
+    #propos2 {
+        width: 90%;
+    }
+
+    #logopartenaire {
+        margin-left: 0px;
+    }
+
+    #imagepropos1 {
+        align-self: center;
+        margin-right: 0px;
+        margin-bottom: 50px;
+    }
+
+    #imagepropos2 {
+        position: static;
+        align-self: center;
+        margin-top: 50px;
+    }
+
+  }
+
+  @media all and (min-width: 1361px) and (max-width: 1860px) {
+
+    #propos2 {
+        width: 63%;
+    }
+
+    #logopartenaire {
+        margin-left: 40px;
+    }
   }

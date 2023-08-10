@@ -27,7 +27,7 @@ main {
     max-height: 1000px;
     margin-top: 100px;
     color: white;
-    font-family: 'sansita';
+    font-family: 'sansita', sans-serif;
     word-spacing: 5px;
     text-shadow: 1px 0 5px;
     font-size: 20px;

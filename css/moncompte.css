@@ -29,7 +29,7 @@ main {
     flex-direction: row;
     justify-content: center;
     color : white;
-    font-family: 'sansita';
+    font-family: 'sansita' , sans-serif;
 }
 
 

@@ -34,7 +34,7 @@ main {
     color: white;
     border-radius: 20px;
     background-color: #554D74;
-    font-family: sansita;
+    font-family: sansita, sans-serif;
     box-shadow: 1px 1px 18px 0px rgba(255,255,255,0.75);
     -webkit-box-shadow: 1px 1px 18px 0px rgba(255,255,255,0.75);
     -moz-box-shadow: 1px 1px 18px 0px rgba(255,255,255,0.75);

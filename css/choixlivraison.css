@@ -29,7 +29,7 @@ main {
     flex-direction: column;
    margin-bottom: 100px;
    color: white;
-   font-family: sansita ;
+   font-family: sansita, sans-serif ;
    margin-left: 30px;
 }
 
