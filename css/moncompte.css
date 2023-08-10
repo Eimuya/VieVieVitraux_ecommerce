@@ -118,4 +118,178 @@ article{
 }
 
 
+@media all and (max-width:1027px) {
+    #comptedroite h2 {
+        font-size: 18px;
+    }
 
+    #comptedroite p {
+        font-size: 18px;
+    }
+
+    .photoprofil p {
+        font-size: 18px;
+        margin-top: 25px;
+    }
+
+    #comptegauche a {
+        font-size: 13px;
+    }
+}
+
+@media all and (max-width:962px) {
+    #comptedroite h2 {
+        font-size: 15px;
+    }
+
+    #comptedroite p {
+        font-size: 15px;
+    }
+
+    .photoprofil p {
+        font-size: 15px;
+        margin-top: 30px;
+    }
+
+    #comptegauche a {
+        font-size: 11px;
+    }
+}
+
+@media all and (max-width:919px) {
+    #comptedroite h2 {
+        font-size: 12px;
+    }
+
+    #comptedroite p {
+        font-size: 12px;
+    }
+
+    .photoprofil p {
+        font-size: 12px;
+        margin-top: 30px;
+    }
+
+    #comptegauche a {
+        font-size: 10px;
+    }
+}
+
+@media all and (max-width:876px) {
+    #comptedroite h2 {
+        font-size: 10px;
+    }
+
+    #comptedroite p {
+        font-size: 10px;
+    }
+
+    .photoprofil p {
+        font-size: 10px;
+        margin-top: 40px;
+    }
+
+    #comptegauche a {
+        font-size: 10px;
+    }
+
+    #comptegauche {
+        padding: 10px;
+        margin:30px;
+    }
+
+    #comptedroite {
+        padding: 10px;
+        margin:30px;
+    }
+
+    .moncompte {
+        padding:5px;
+    }
+
+}
+
+@media all and (max-width:857px) {
+    #comptedroite h2 {
+        font-size: 10px;
+    }
+
+    #comptedroite p {
+        font-size: 10px;
+    }
+
+    .photoprofil p {
+        font-size: 10px;
+        margin-top: 20px;
+    }
+
+    .photoprofil {
+        margin:20px;
+    }
+
+    #comptegauche a {
+        font-size: 10px;
+    }
+
+    #comptegauche {
+        padding: 10px;
+        margin:20px;
+    }
+
+    #comptedroite {
+        padding: 10px;
+        margin:20px;
+    }
+
+    .moncompte {
+        margin: 30px;
+        padding:5px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    main {
+        margin: 10px;
+    }
+    
+
+}
+
+@media all and (max-width:857px) {
+    .moncompte {
+        margin: 0px;
+    }
+}
+
+@media all and (max-width:598px) {
+    #comptegauche {
+        padding: 10px;
+        margin:10px;
+    }
+
+    #comptedroite {
+        padding: 10px;
+        margin:10px;
+    }
+}
+
+@media all and (max-width:557px) {
+    #comptegauche {
+        padding: 5px;
+        margin:10px;
+    }
+
+    #comptedroite {
+        padding: 5px;
+        margin:10px;
+    }
+}
+
+@media all and (max-width:537px) {
+    #comptedroite h2 {
+        font-size: 7px;
+    }
+
+    #comptedroite p {
+        font-size: 7px;
+    }
+}
