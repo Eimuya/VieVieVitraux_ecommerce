@@ -92,5 +92,5 @@ h2 {
 }
 
 h2, .article, .fdp {
-    font-family: sansita;
+    font-family: sansita, sans-serif;
 }

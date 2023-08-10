@@ -8,6 +8,12 @@
     src: url(../font/SansitaSwashed-VariableFont_wght.ttf);
 }
 
+
+main {
+    padding: 20px;
+    margin: 20px;
+}
+
 section {
     margin-left: 5%;
     margin-right: 5%;
@@ -19,11 +25,6 @@ section {
     align-items: center;
     color: white;
     font-size: 15px;
-}
-
-main {
-    padding: 20px;
-    margin: 20px;
 }
 
 .gauche {

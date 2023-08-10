@@ -33,7 +33,7 @@ main {
     align-items: center;
     justify-content: center;
     color: white;
-    font-family: sansita;
+    font-family: sansita, sans-serif;
    
 }
 section input {
