@@ -94,3 +94,77 @@ h2 {
     transform: scale(1, 1);
   }
 }
+
+@media all and (max-width:1060px) {
+    #article_un img {
+        width:150px;
+        height: 80px;
+    }
+
+    #article_deux img {
+        width:95px;
+        height: 130px;
+    }
+
+    #article_trois img {
+        width:95px;
+        height: 130px;
+    }
+}
+
+@media all and (max-width:970px) {
+    .evenement_deux img {
+        width: 100px;
+        height: 150px;
+    }
+}
+
+@media all and (max-width:935px) {
+    #article_un p {
+        font-size: 14px;
+    }
+
+    #article_deux p {
+        font-size: 14px;
+    }
+
+    #article_trois p {
+        font-size: 14px;
+    }
+}
+
+@media all and (max-width:689px) {
+    #article_un p {
+        font-size: 12px;
+    }
+
+    #article_deux p {
+        font-size: 12px;
+    }
+
+    #article_trois p {
+        font-size: 12px;
+    }
+
+    #article_un img {
+        width:100px;
+        height: 70px;
+    }
+
+    #article_deux img {
+        width:90px;
+        height: 110px;
+    }
+
+    #article_trois img {
+        width:90px;
+        height: 110px;
+    }
+}
+
+@media all and (max-width:605px) {
+    .evenement_deux img {
+        width: 90px;
+        height: 130px;
+    }
+}

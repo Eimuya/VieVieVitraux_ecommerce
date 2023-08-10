@@ -95,3 +95,33 @@ main {
 section img {
     border-radius: 10px;
 }
+
+/* ************************************** RESPONSIVE : ****************************/
+
+@media all and (max-width: 1190px) {
+   .ficheproduitgd {
+    display: flex;
+    flex-direction: column;
+   }
+
+   .gauche {
+    max-width: 300px;
+   }
+}
+
+@media all and (max-width: 830px) {
+    .lesavis {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Avis2 {
+        margin-top: 40px;
+    }
+}
+
+@media all and (min-width:1190px) {
+    #imagearticle {
+        min-width: 100px;
+    }
+}
