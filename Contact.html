@@ -8,10 +8,40 @@
     <link rel="stylesheet" href="./css/contact.css">
     
     <title>vievievitraux</title>
+
+    <style>
+        .container {
+            max-width: 820px;
+            margin: 0px;
+            margin-top: 15px;
+        }
+        .blocktexterea {
+            float: left;
+            width: 100%;
+            height: auto;
+        }
+        .commenter {
+            float: left;
+        }
+        .commenter img {
+            width: 35px;
+            height: 35px;
+        }
+
+        #Message {
+            float: left;
+            width: 100%;
+            min-height: 75px;
+            outline: none;
+            resize: none;
+            border: 1px solid grey;
+        }
+    </style>
+
 </head>
 <body>
     
-    <!-- <header>
+    <header>
         <div id="logo">
             <a href="./index.html">
                 <img id="logoimg" src="images/logo1.svg" alt="mon jolie logo">
@@ -43,7 +73,7 @@
                 <i id="userLogo" class="fa-solid fa-user" style="color: #000000;"></i>
             </a>
         </div>
-    </header> -->
+    </header>
 
     <main>
         
@@ -63,33 +93,40 @@
             <label for="demande">Nature de la demande</label><br>
             <input type="text" name="titre" id="titre"><br>
 
-            <label for="message">Message:</label><br>
-            <textarea name="" id="" cols="50" rows="10" required> 
+            <div class="container" style="margin-right: 100px;">
+                <div class="blocktexterea">
+                    <label for="message">Message:</label><br>
+                    <textarea name="" id="Message" cols="50" rows="10" required> 
      Ajouter votre message...</textarea><br>
+                </div>
+            </div><br>
      
             <input type="submit" value="Envoyer" id="envoyer"><br>
 
         </form>
     
-    <section id="popup">
-        <h2>Message bien envoyer</h2><br>
-        <p>Je vous remercie de l’attention que vous apportez à notre site.</p><br>
-    </section>
+        <section id="popup">
+            <h2>Message bien envoyé</h2><br>
+            <p>Je vous remercie de l’attention que vous apportez à notre site.</p><br>
+        </section>
 
-    <section id="infos">
-        <p>Adresse de vievievitraux:</p>
-        <p class="p">21 rue des artistes,</p> 
-        <p class="p">75003 Paris.</p>
-        <p>Numéro de téléphone de vievievitraux: </p>
-        <p class="p"> 06.35.26.98.74</p>
-        <p>Adresse mail de vievievitraux:</p> 
-        <p class="p">vievievitraux@gmail.com</p><br>
+        <section id="infos">
+            <p>Adresse de vievievitraux:</p>
+            <p class="p">21 rue des artistes,</p> 
+            <p class="p">75003 Paris.</p>
+            <p>Numéro de téléphone de vievievitraux: </p>
+            <p class="p"> 06.35.26.98.74</p>
+            <p>Adresse mail de vievievitraux:</p> 
+            <p class="p">vievievitraux@gmail.com</p><br>
 
-        <h3>Plan</h3>
+            <h3>Plan</h3>
 
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83998.9185124463!2d2.347035!3d48.85885484999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1f06e2b70f%3A0x40b82c3688c9460!2sParis!5e0!3m2!1sfr!2sfr!4v1690299658130!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83998.9185124463!2d2.347035!3d48.85885484999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1f06e2b70f%3A0x40b82c3688c9460!2sParis!5e0!3m2!1sfr!2sfr!4v1690299658130!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-    </section>
+            
+
+        </section>
 
     </main>
 

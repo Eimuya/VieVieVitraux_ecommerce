@@ -73,13 +73,13 @@ main {
 
 #logopartenaire {
     display: flex;
-    flex-flow: row wrap-reverse;
+    flex-flow: row wrap;
     justify-content: center; 
     background-color: #554D74;
     border-radius: 20px;
     box-shadow: 0px 5px 5px white;
     margin-bottom: 150px;
-    margin-left: 150px;
+    margin-left: 280px;
     padding-top: 40px;
     padding-bottom: 40px;
     padding-right: 25px;

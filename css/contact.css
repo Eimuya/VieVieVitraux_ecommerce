@@ -31,6 +31,7 @@ main {
     margin-top: 100px;
     color: white;
     font-family: 'sansita', sans-serif;
+    text-align: justify;
     word-spacing: 5px;
     text-shadow: 1px 0 5px;
     font-size: 20px;
@@ -57,6 +58,12 @@ h3 {
 }
 
 /* ******************************************************Section*********************************************************************** */
+
+
+#form {
+    text-align: justify;
+}
+
 
 #infos {
     display: flex;
@@ -89,13 +96,19 @@ label {
     margin-left: 5%;
 }
 
+.container {
+    margin-top: 0px;
+    margin-left: 50px;
+}
+
 input, textarea {
     font-family: 'sansitra', sans-serif;
     color: white;
     background-color: #554D74;
     border-radius: 20px;
     display: flex;
-    margin-left: 5%; 
+    margin-left: 5%;
+    margin-bottom: 10px; 
 }
 
 input#nom, input#prénom, input#mail, input#titre {
@@ -109,7 +122,7 @@ input#nom, input#prénom, input#mail, input#titre {
 
 input#envoyer {
     color: white;
-    text-shadow: 1px 0 5px;
+    text-shadow: 1px 0px 5px;
     font-size: 20px;
     border-top-width: 2px;
     border-top-style: solid;
@@ -132,5 +145,77 @@ iframe {
 
 /* ******************************************************Responsive******************************************************************** */
 
+
+@media all and (min-width: 300px) and (max-width: 960px) {
+
+    main {
+      display: flex;
+      flex-wrap: wrap;
+      font-size: 15px;
+    }
+  
+    h2 {
+      text-align: start;
+      font-size: 18px;
+      margin: 0px;
+      margin-left: 20px;
+    }
+  
+    #form {
+      width: 90%;
+    }
+  
+    input#envoyer {
+      padding-top: 5px;
+      padding-bottom: 5px;
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+  
+    #infos {
+      display: flex;
+      align-items: flex-start;
+      margin-top: 20px;
+      margin-left: 20px;
+    }
+  
+  
+    h3 {
+      display: none;
+    }
+  
+    iframe{
+      display: none;
+    }
+  
+    footer {
+      margin-top: 150px;
+    }
+    }
+  
+    @media all and (min-width: 961px) and (max-width: 1360px){
+  
+      main {
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 20px;
+      }
+  
+      #infos {
+        display: flex;
+        align-items: flex-start;
+        margin-top: 20px;
+        margin-left: 20px;
+      }
+      
+      footer {
+        margin-top: 1000px;
+      }
+    }
+  
+    @media all and (min-width: 1361px) and (max-width: 1860px) {
+  
+    
+    }
 
 
